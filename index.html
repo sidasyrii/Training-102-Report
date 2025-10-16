@@ -112,7 +112,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
         }
-        .gallery {
+        .     {
             position: relative;
             width: 100%;
             max-width: 800px;
@@ -120,23 +120,23 @@
             overflow: hidden;
             border-radius: 10px;
         }
-        .gallery img {
+        .     img {
             width: 100%;
             display: none;
             transition: opacity 1s ease-in-out;
         }
-        .gallery img.active {
+        .     img.active {
             display: block;
             opacity: 1;
         }
-        .gallery .caption { 
+        .     .caption { 
             text-align: center;
             margin-top: 10px;
             color: #000000;
             font-size: 20px;
             display: none;
         }
-        .gallery .caption.active {
+        .     .caption.active {
             display: block;
         }
         .certificate-container {
@@ -178,7 +178,7 @@
             .pdf-container iframe {
                 height: 400px;
             }
-            .gallery img {
+            .     img {
                 width: 100%;
             }
         }
@@ -232,7 +232,7 @@
             <a href="#" onclick="showSection('day27')">Day 27</a>
             <a href="#" onclick="showSection('day28')">Day 28</a>
             <br>
-            <a href="#" onclick="showSection('gallery')">Gallery</a>
+            <a href="#" onclick="showSection('    ')">    </a>
              <br>
             <a style="background-color: rgb(13, 0, 113);" href="#" onclick="showSection('projects')">Projects</a>
         </nav>
@@ -418,49 +418,7 @@
             </div>
         </section>
 
-        <section id="gallery" class="section">
-            <h2>Gallery</h2>
-            <div class="gallery">
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/Aircrack.jpeg" alt="Aircrack-ng">
-                <div class="caption">Aircrack-ng</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/airgeddon.jpeg" alt="Airgeddon">
-                <div class="caption">Airgeddon</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/Android HAcking.png" alt="Android HAcking">
-                <div class="caption">Android Hacking</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/Burpsuite Pro.png" alt="Burpsuite Pro">
-                <div class="caption">Burpsuite Professional</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/CAmphish.jpeg" alt="Camphish">
-                <div class="caption">Camphish</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/zphisher.png" alt="Zphisher">
-                <div class="caption">Zphisher</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/XERXES.jpeg" alt="XERXES">
-                <div class="caption">XERXES</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/esp8266.jpeg" alt="ESP8266">
-                <div class="caption">ESP8266</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/foxy proxy.png" alt="FOXY PROXY">
-                <div class="caption">Foxy Proxy</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/metaspliotable.png" alt="Metasploit Table">
-                <div class="caption">Metasploit Table</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/nmap.png" alt="NMAP">
-                <div class="caption">NMAP</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/snort.png" alt="SNORT">
-                <div class="caption">SNORT</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/asset finder.jpeg" alt="Asset Finder">
-                <div class="caption">Asset Finder</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/subfinder.png" alt="Sub Finder">
-                <div class="caption">Sub Finder</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/tenable nesus.png" alt="Tenable Nesus">
-                <div class="caption">Tenable Nesus</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/the harvester.jpeg" alt="The Harvester">
-                <div class="caption">The Harvester</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/Wappalyzer.png" alt="Wappalyzer">
-                <div class="caption">Wappalyzer</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/webcheck petnest tool.png" alt="Web Check Pentest Tool">
-                <div class="caption">Web Check Pentest Tool</div>
-                <img src="https://raw.githubusercontent.com/sidasyrii/Training-102-Report/main/wireshark.png" alt="wireshark">
-                <div class="caption">Wireshark</div>
-            </div>
-        </section>
+        
 
         <section id="projects" class="section">
             <h1>Projects</h1>
@@ -516,8 +474,8 @@ You show your skill levels (Intermediate, Advanced, etc.) — gives visitors a q
         }
 
         let currentIndex = 0;
-        const images = document.querySelectorAll('.gallery img');
-        const captions = document.querySelectorAll('.gallery .caption');
+        const images = document.querySelectorAll('.     img');
+        const captions = document.querySelectorAll('.     .caption');
 
         // THIS FUNCTION IS NOW CORRECTED
         function showSlide(index) {
